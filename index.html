@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NAPAT TAROM (AUD) | Resume</title>
+  <style>
+    :root {
+      --bg: #f3f4f6;
+      --card: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 16px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 32px 24px;
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+    }
+
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 16px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+
+    .profile-main h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .profile-main .title {
+      margin-top: 4px;
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      background: #eff6ff;
+      color: #1d4ed8;
+    }
+
+    .profile-contact {
+      text-align: right;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .profile-contact a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .profile-contact a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 24px;
+    }
+
+    section:last-of-type {
+      margin-bottom: 8px;
+    }
+
+    section h2 {
+      margin: 0 0 8px 0;
+      font-size: 18px;
+      border-left: 4px solid var(--accent);
+      padding-left: 8px;
+    }
+
+    .section-subtitle {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .about {
+      font-size: 14px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: 24px;
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 4px;
+    }
+
+    .tag {
+      font-size: 12px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: #f3f4ff;
+      color: #4338ca;
+      border: 1px solid #e0e7ff;
+    }
+
+    .item {
+      margin-bottom: 12px;
+    }
+
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 14px;
+    }
+
+    .item-title {
+      font-weight: 600;
+    }
+
+    .item-company {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .item-meta {
+      text-align: right;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .item ul {
+      margin: 4px 0 0 18px;
+      padding: 0;
+      font-size: 13px;
+    }
+
+    .item ul li {
+      margin-bottom: 2px;
+    }
+
+    .project-link {
+      font-size: 13px;
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .project-link:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 16px;
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 720px) {
+      .card {
+        padding: 24px 18px;
+      }
+
+      header {
+        flex-direction: column;
+      }
+
+      .profile-contact {
+        text-align: left;
+      }
+
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+
+      .item-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .item-meta {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <!-- HEADER -->
+      <header>
+        <div class="profile-main">
+          <h1>NAPAT TAROM (AUD)</h1>
+          <div class="title">Cybersecurity Architect & Consultant</div>
+          <div class="badge">Open to regional & remote opportunities</div>
+        </div>
+        <div class="profile-contact">
+          <div>📍 Bangkok, Thailand</div>
+          <div>📧 <a href="mailto:aud.napat@hotmail.com">aud.napat@hotmail.com</a></div>
+          <div>📱 +66 804 959 965</div>
+          <div>
+            <a href="https://www.linkedin.com/in/napat-tarom" target="_blank">LinkedIn: Napat Tarom</a>
+          </div>
+        </div>
+      </header>
+
+      <!-- SUMMARY -->
+      <section id="about">
+        <h2>Professional Summary</h2>
+        <p class="about">
+          Cybersecurity professional with experience across security engineering, security advisory, governance,
+          risk management, and secure architecture design within large enterprises. Skilled in applying NIST CSF,
+          ISO 27001, PCI DSS, cloud security principles, and secure SDLC. Experienced in advising business units
+          and subsidiaries, performing technical risk assessments, defining mitigation strategies, and presenting
+          security risks to Managing Director-level executives. Strong technical foundation paired with leadership,
+          communication, and stakeholder-management skills.
+        </p>
+      </section>
+
+      <div class="grid-2">
+        <!-- SKILLS -->
+        <section id="skills">
+          <h2>Skills</h2>
+
+          <div class="section-subtitle">Security Domains</div>
+          <div class="tag-list">
+            <span class="tag">Security Architecture</span>
+            <span class="tag">Security Consulting</span>
+            <span class="tag">Governance &amp; Risk Management</span>
+            <span class="tag">Threat Modeling (STRIDE)</span>
+            <span class="tag">Secure SDLC</span>
+            <span class="tag">Cloud Security</span>
+            <span class="tag">Identity &amp; Access Management</span>
+            <span class="tag">Endpoint Security</span>
+            <span class="tag">Network Security</span>
+          </div>
+
+          <div class="section-subtitle" style="margin-top:10px;">Frameworks &amp; Standards</div>
+          <div class="tag-list">
+            <span class="tag">NIST CSF</span>
+            <span class="tag">ISO 27001</span>
+            <span class="tag">PCI DSS</span>
+            <span class="tag">ISMS</span>
+            <span class="tag">ITIL</span>
+          </div>
+
+          <div class="section-subtitle" style="margin-top:10px;">Technologies &amp; Platforms</div>
+          <div class="tag-list">
+            <span class="tag">Microsoft 365</span>
+            <span class="tag">Azure AD / Conditional Access</span>
+            <span class="tag">Microsoft Secure Score</span>
+            <span class="tag">AWS Cloud</span>
+            <span class="tag">Cisco Networking</span>
+            <span class="tag">Firewalls</span>
+            <span class="tag">Email Security</span>
+            <span class="tag">VLAN / Routing / ACL</span>
+          </div>
+
+          <div class="section-subtitle" style="margin-top:10px;">Soft Skills</div>
+          <div class="tag-list">
+            <span class="tag">Stakeholder Management</span>
+            <span class="tag">Executive Communication</span>
+            <span class="tag">Leadership</span>
+            <span class="tag">Security Awareness Training</span>
+            <span class="tag">Problem Solving</span>
+          </div>
+        </section>
+
+        <!-- EDUCATION / CERT -->
+        <section id="education">
+          <h2>Education &amp; Certifications</h2>
+
+          <div class="item">
+            <div class="item-header">
+              <div>
+                <div class="item-title">Master of Science – Data Network &amp; Information Security Management</div>
+                <div class="item-company">King Mongkut’s University of Technology North Bangkok</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-subtitle" style="margin-top:10px;">Certifications</div>
+
+          <div class="item">
+            <ul>
+              <li>CompTIA Security+</li>
+              <li>CompTIA CySA+</li>
+              <li>ISC2 CC</li>
+              <li>Cisco CCNA</li>
+              <li>AWS Certified Cloud Practitioner (CLF-C02)</li>
+              <li>Microsoft Certified: Azure Fundamentals (AZ-900)</li>
+              <li>Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)</li>
+              <li>ITIL Foundation</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <!-- EXPERIENCE -->
+      <section id="experience">
+        <h2>Experience</h2>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">IT Security Architect</div>
+              <div class="item-company">KASIKORN Business-Technology Group (KBTG)</div>
+            </div>
+            <div class="item-meta">
+              2024 – Present · Bangkok, Thailand
+            </div>
+          </div>
+          <ul>
+            <li>Provide security consulting to internal product teams and subsidiaries, ensuring alignment with NIST CSF and ISO 27001.</li>
+            <li>Perform Security Risk Assessments for new and developing applications, reviewing architecture, data flows, authentication mechanisms, and SDLC alignment.</li>
+            <li>Conduct Threat Modeling (STRIDE) to identify attack vectors and prioritize risks.</li>
+            <li>Recommend mitigation strategies and technical security controls to strengthen system architecture.</li>
+            <li>Present security findings and risk treatment recommendations to Managing Director-level executives for approval and risk acceptance.</li>
+            <li>Improve enterprise identity and endpoint posture via Microsoft Secure Score, Conditional Access, and secure configuration baselines.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">Cybersecurity &amp; Privacy Consultant</div>
+              <div class="item-company">ACinfotech</div>
+            </div>
+            <div class="item-meta">
+              2024 · Thailand
+            </div>
+          </div>
+          <ul>
+            <li>Implemented ISO 27001 ISMS, including risk register, Statement of Applicability (SoA), and policy/procedure development.</li>
+            <li>Conducted technical and governance risk assessments with detailed remediation guidance.</li>
+            <li>Delivered security awareness training to improve organizational security posture.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">SW/App/Cloud Tech Support Analyst</div>
+              <div class="item-company">Accenture Thailand</div>
+            </div>
+            <div class="item-meta">
+              2022 – 2024 · Thailand
+            </div>
+          </div>
+          <ul>
+            <li>Ensured endpoint security compliance, participated in RFC reviews, and supported resiliency and security testing.</li>
+            <li>Coordinated escalations with global teams to maintain security and policy alignment.</li>
+            <li>Awarded "Bravo Zulu" for exceptional customer service.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">Technical Support Engineer</div>
+              <div class="item-company">Net Bright</div>
+            </div>
+            <div class="item-meta">
+              2021 – 2022 · Thailand
+            </div>
+          </div>
+          <ul>
+            <li>Configured and supported network security components including VLANs, routing, ACLs, firewall rules, and email security.</li>
+            <li>Collaborated with TAC teams to resolve complex network and security issues.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">IT Support</div>
+              <div class="item-company">NVK Inter</div>
+            </div>
+            <div class="item-meta">
+              2021 · Thailand
+            </div>
+          </div>
+          <ul>
+            <li>Troubleshot IoT (CCTV) and core network devices including routers, switches, and gateways.</li>
+            <li>Supported POCs and delivered technical training to customers.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- OPTIONAL PROJECTS (EMPTY TEMPLATE IF YOU WANT TO ADD LATER) -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="section-subtitle">
+          Selected security and architecture projects can be added here (e.g., threat modeling initiatives, security automation, cloud security hardening).
+        </div>
+        <!-- Example structure for future use:
+        <div class="item">
+          <div class="item-header">
+            <div>
+              <div class="item-title">Project Name</div>
+              <div class="item-company">Personal / Client / Internal</div>
+            </div>
+            <div class="item-meta">
+              2024
+            </div>
+          </div>
+          <ul>
+            <li>Short description of the project and your contribution.</li>
+          </ul>
+        </div>
+        -->
+      </section>
+
+      <footer>
+        © 2026 NAPAT TAROM (AUD) · Web resume built with pure HTML &amp; CSS.
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
